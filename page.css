@@ -1,0 +1,82 @@
+label{
+  display:block;
+  margin:1em;
+}
+fieldset{
+  padding:2em;
+}
+h1,p{
+  margin: auto;
+  text-align:center;
+}
+body{
+  font-family:poppins,sans-serif;
+  font-size:1 rem;
+  margin:0;
+  background-image:linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+color:white;
+background-size:cover;
+}
+form{
+  background-color: rgba(27,27,50,0.8);
+  max-width:500px;
+  min-width:300px;
+}
+label{
+  display:flex;
+  align-items:center;
+  font-size:1.125rem;
+  margin-bottom:0.5rem;
+  display: block;
+	margin: 0.5rem 0;
+}
+input{
+  display:block;
+width: 100%;
+height: 2.375rem;
+padding: 0.375rem 0.75rem;
+color: #495057;
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: 0.25rem;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+margin:0 auto 1.25rem auto
+}
+.container{
+  margin:3.125rem auto 0 auto;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+	width: 100%;
+  min-height: 2em;
+}
+.inline{
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+#description{
+  margin-top:1em;
+  font-family:italic;
+}
+#email{
+  type:email;
+}
+#name-label{
+  margin:1em;
+}
+#email-label{
+  margin:1em;
+}
+#number-label{
+  margin:1em;
+}
+#dropdown{
+  margin:1em;
+}
+#submit{
+  type:submit;
+}
